@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Poppins:wght@300;400&display=swap");
+
+html {
+  font-family: "Karla", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 1140px;
+}
+
+.anaDiv {
+  text-align: center;
+  margin: 15% auto;
+  padding-left: 0px;
+}
+.header {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.header h5 {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  font-weight: 200;
+}
+
+.header h1 {
+  font-weight: 200;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.header .strong {
+  font-weight: 600;
+}
+
+.card {
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.01);
+  border-radius: 5px;
+  width: 350px;
+  overflow: hidden;
+  position: relative;
+  height: 200px;
+  margin: auto;
+}
+/* 
+.left ,.right
+{
+  /* transform: translateY(25%); */
+/* margin-top: 10px; */
+ .card::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 5px;
+  width: 100%;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+}
+.card h5 {
+  font-weight: 700;
+}
+.card p
+{
+  font-weight: 200;
+}
+
+.supervisor::after {
+  background-color: rgb(84, 158, 242);
+}
+.teamBuilder::after {
+  background-color: rgb(234, 83, 83);
+}
+.karma::after {
+  background-color: rgb(252, 175, 74);
+}
+.calculator::after {
+  background-color: rgb(69, 211, 211);
+}
